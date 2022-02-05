@@ -1,0 +1,68 @@
+Test Roi : 
+
+f5 > e5 // mouvement impossible le roi ne peut pas se mettre en echec 
+f5 > h7 // mouvement impossible le roi ne peut se deplacer que de 1 case 
+f5 > g5 // le roi ce deplace de haut en bas
+a1 > a2 // le roi ce deplace de gauche a droite
+g5 > h6 // le roi ce deplace en diagonale
+a2 > b3 // le roi ne peut pas manger la meme couleur que lui meme
+a2 > a3 // le roi mange
+
+
+
+Test Reine: 
+
+e6 > b6 // reine va de haut en bas
+e3 > e7 // reine va de gauche a droite 
+b6 > e3 // reine va en diagonale
+e7 > e2 // mouvement impossible reine ne peut pas traverser une autre piece
+e7 > e8 // reine noir met en echec roi blanc
+e3 > g3 // mouvement impossible car reine noir met en echec roi blanc 
+e3 > e8 // reine mange 
+
+Test Cavalier: 
+
+h2 > f3 // fait un l3 case
+a7 > d7 // mouvement impossible car le cavalier ne va pas tout droit  
+a7 > c6
+f3 > d5 // mouvement impossible car le cavalier ne peut pas aller plus loin que l3 case
+f3 > d4
+c6 > d4 // cavalier manger une piece
+
+Test Pion: 
+
+g6 > f6 // pion qui ce deplace de 1 au premier tour
+b7 > d7 // pion qui ce deplace de 2 au premier tour 
+f6 > d6 // mouvement impossible pion ne peut plus avancer de 2
+f6 > e6 
+d7 > e8 // mouvement impossible car pion ne peut pas aller en diagonale
+d7 > e6 // pion qui mange une autre pion 
+
+Test Fou :
+
+e6 > b3 // diagonale vers le haut 
+e3 > g5 // diagonale vers le bas
+b3 > d3 // mouvement impossible car le fou ne peut pas aller de haut en bas
+b3 > b5 // mouvement impossible car le fou ne peut pas aller de gauche a droite
+
+ 
+Test Tour:
+
+e5 > b5 // tour qui ce deplace de haut en bas 
+e3 > e5 // tour qui ce deplace de gauche a droite
+b5 > f5 // mouvement impossible car tour ne peut pas traverser
+b5 > d3 // mouvement impossible car tour ne peut pas aller en diagonale
+
+Echec et Math: 
+
+g5 > e5 
+b5 > d5 
+h4 > d8	
+a2 > c3 
+h6 > e3 
+b1 > c1 
+d8 > b6 
+
+pat : 
+
+e2 > c2 // egalite car le roi ne peut plus bouger du tout
