@@ -1,2 +1,2 @@
-# jeuxEchec
-Projet S3 IUT Villetaneuse
+# jeuxEchec Projet S3 IUT Villetaneuse
+
